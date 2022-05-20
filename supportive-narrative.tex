@@ -1,0 +1,75 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[dutch]{babel}
+
+\usepackage{lipsum}
+\usepackage{enumitem}
+\setlist{nosep}
+
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{csquotes}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage[toc,page]{appendix}
+\usepackage{wrapfig}
+\graphicspath{ {./assets} }
+
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{bibliography.bib}
+%\bibliographystyle{apalike}
+
+\usepackage{xcolor}
+\newcommand\todo[1]{\textbf{\textcolor{red}{TODO: #1}}}
+
+\title{%
+    Creatieve systemen \\
+    \large Het ontwikkelen van een online streamingdienst die de creativiteit van de artiest bevordert
+}
+\author{Jochem van Iterson}
+\date{Juni 2021}
+
+\begin{document}
+\pagenumbering{gobble}
+\subfile{sections/00_titlepage.tex}
+% \maketitle
+
+\newpage % Abstract
+% \pagenumbering{arabic}
+\subfile{sections/01_abstract.tex}
+\pagenumbering{arabic}
+
+\newpage % Inhoudsopgave
+\tableofcontents
+
+\newpage % Introductie
+\subfile{sections/02_introductie.tex}
+
+\newpage % Doel
+\subfile{sections/03_doel.tex}
+
+\newpage % Critical Review
+\subfile{sections/04_critical-review.tex}
+
+\newpage % Methode
+\subfile{sections/05_methode.tex}
+
+\newpage % Uitvoering
+\subfile{sections/06_uitvoering-en-resultaten.tex}
+
+\newpage % Conclusie en reflectie
+\subfile{sections/07_conclusie.tex}
+
+\newpage % Referenties
+\addcontentsline{toc}{section}{Referenties}
+
+\printbibliography
+
+\newpage % Bijlage
+\appendix
+\subfile{sections/08_bijlage.tex}
+
+\end{document}
