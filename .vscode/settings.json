@@ -5,7 +5,7 @@
     "editor.wordWrapColumn": 120,
     "latex-workshop.latex.outDir": "%DIR%\\out",
     "latex-workshop.synctex.afterBuild.enabled": true,
-    "cSpell.language": "nl,en-US,nl-NL",
+    "cSpell.language": "nl,en-US,nl-NL,en,lorem",
     "cSpell.words": [
         "Joomla",
         "NichePlayer",
