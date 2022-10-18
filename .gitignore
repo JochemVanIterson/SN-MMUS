@@ -431,3 +431,6 @@ $RECYCLE.BIN/
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,latex,microsoftofficeVisualStudioCode
+
+supportive-narrative.docx
+supportive-narrative.pdf
