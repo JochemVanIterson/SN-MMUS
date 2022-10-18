@@ -2,27 +2,32 @@
 
 ## Outline
 
-- Onderwerp: Technologie in het distributieproces van muziek
-- Context (NichePlayer)
+- Onderwerp:
+  - Title: Technologie in het distributieproces van muziek
+  - Subtitle: Digitaal <-> fysiek
+    - Het evenwicht tussen het gemak van digitaal en de waarde van het fysieke artefact
+- Context
   - Korte geschiedenis van de NichePlayer (vorige iteraties)
-- Critical review naar bestaande media (LP, tape, CD, Streaming)
-  - Hoe ze bekend zijn geworden
-  - Hoe hebben ze de industrie, community en de context beïnvloed
-  - Gevaren van het medium
-  - Zelf een keer het proces doorlopen (muziek publishen)
-- Vragen
+  - TapTapes
+- Critical review naar bestaande media (LP, tape, CD, MP3, Torrent/P2P, Streaming)
+  - Desruptieve werking van een medium op zijn voorganger
+  - Welk probleem heeft het proberen op te lossen
+- Vragen die ik beantwoord wil hebben
   - Wat is de plek/visie van de NichePlayer, wat maakt het anders
     - Digitaal met fysieke toegang
     - Community binnen het systeem
-  - Waarde van het fysieke product met digitale toegang
+  - Waarde van het fysieke artefact met digitale toegang
     - Neemt (fysiek) ruimte in beslag
     - Herinnering aan gebeurtenis
     - Beperkte oplage (luxe product)
     - Flexibiliteit van digitaal gebruik maar met fysieke toegang
-  - Wat is de doelgroep, en hoe vind ik deze mensen
-    - In gesprek met artiesten (**interviews**)
+  - Wat is de doelgroep (van de NP), en hoe vind ik deze mensen
   - Hoeveel energie zou de artiest in de NichePlayer moeten steken
-    - In gesprek met artiesten (**interviews**)
+- Methode
+  - Zelf een keer het proces doorlopen (muziek publishen)
+  - In gesprek met artiesten (**interviews**)
+  - Literatuur onderzoek
+  - Marktonderzoek
 - Uitwerken
   - Uitwerken unique selling point van de NichePlayer
     - Waarom wil de fan muziek luisteren via de NichePlayer (Artiest <-> Fan)
@@ -39,3 +44,4 @@
 - Spanning tussen Spotify (Centraal) en NFT's (Decentraal)
 - Kwaliteit van de critical review -> moet niet zomaar uit een tijdschrift komen
 - Wikipedia gebruiken als bron zoeker
+- Persoonlijke verbinding met de artiest
