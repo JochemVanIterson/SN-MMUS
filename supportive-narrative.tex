@@ -24,7 +24,8 @@
 %\bibliographystyle{apalike}
 
 \usepackage{xcolor}
-\newcommand\todo[1]{\textbf{\textcolor{red}{TODO: #1}}}
+\newcommand\todo[1]{\textbf{\textcolor{red}{TODO: #1}}\\*}
+\newcommand\info[1]{\textbf{\textit{\textcolor{yellow}{INFO: #1}}}\\*}
 
 \title{
     Technologie in het distributieproces van muziek \\
@@ -35,34 +36,31 @@
 
 \begin{document}
 \pagenumbering{gobble}
-\subfile{sections/00_titlepage.tex}
+\input{sections/00_titlepage.tex}
 % \maketitle
 
 \newpage % Abstract
 % \pagenumbering{arabic}
-\subfile{sections/01_abstract.tex}
+\input{sections/01_abstract.tex}
 \pagenumbering{arabic}
 
 \newpage % Inhoudsopgave
 \tableofcontents
 
 \newpage % Introductie
-\subfile{sections/02_introductie.tex}
-
-\newpage % Doel
-\subfile{sections/03_doel.tex}
+\input{sections/02_introductie.tex}
 
 \newpage % Critical Review
-\subfile{sections/04_critical-review.tex}
+\input{sections/03_critical-review.tex}
 
 \newpage % Methode
-\subfile{sections/05_methode.tex}
+\input{sections/04_methode.tex}
 
 \newpage % Uitvoering
-\subfile{sections/06_uitvoering-en-resultaten.tex}
+\input{sections/05_uitvoering-en-resultaten.tex}
 
 \newpage % Conclusie en reflectie
-\subfile{sections/07_conclusie.tex}
+\input{sections/06_conclusie.tex}
 
 \newpage % Referenties
 \addcontentsline{toc}{section}{Referenties}
@@ -71,6 +69,6 @@
 
 \newpage % Bijlage
 \appendix
-\subfile{sections/08_bijlage.tex}
+\input{sections/07_bijlage.tex}
 
 \end{document}

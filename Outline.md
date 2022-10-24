@@ -10,7 +10,7 @@
   - Korte geschiedenis van de NichePlayer (vorige iteraties)
   - TapTapes
 - Critical review naar bestaande media (LP, tape, CD, MP3, Torrent/P2P, Streaming)
-  - Desruptieve werking van een medium op zijn voorganger
+  - Disruptieve werking van een medium op zijn voorganger
   - Welk probleem heeft het proberen op te lossen
 - Vragen die ik beantwoord wil hebben
   - Wat is de plek/visie van de NichePlayer, wat maakt het anders
