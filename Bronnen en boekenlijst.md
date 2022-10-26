@@ -20,3 +20,8 @@
     - [https://www.philips.com/a-w/research/technologies/cd/jewel-case.htm](https://www.philips.com/a-w/research/technologies/cd/jewel-case.htm)
     - [https://www.philips.com/a-w/research/technologies/cd/cd-family.htm](https://www.philips.com/a-w/research/technologies/cd/cd-family.htm)
   - [https://dutchaudioclassics.nl/the-emergence-of-the-compact-disc/](https://dutchaudioclassics.nl/the-emergence-of-the-compact-disc/)
+
+## How to write a business plan
+
+- [How To Write a Perfect Business Plan in 9 Steps (2022)](https://www.shopify.com/blog/business-plan)
+- [Trimming It Down: How to Create a Lean Business Plan](https://www.shopify.com/blog/lean-business-plan)
