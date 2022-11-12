@@ -6,9 +6,10 @@ all: pdf docx
 
 supportive-narrative.pdf: $(SRC)
 	@mkdir -p out
-	pdflatex -output-directory=out supportive-narrative.tex
-	biber --output-directory=out supportive-narrative
-	pdflatex -output-directory=out supportive-narrative.tex
+	# pdflatex -output-directory=out supportive-narrative.tex
+	# biber --output-directory=out supportive-narrative
+	# pdflatex -output-directory=out supportive-narrative.tex
+	latexmk
 	cp out/supportive-narrative.pdf .
 
 supportive-narrative.docx: $(SRC)
