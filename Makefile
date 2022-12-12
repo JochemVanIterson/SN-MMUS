@@ -13,7 +13,7 @@ supportive-narrative.pdf: $(SRC)
 	cp out/supportive-narrative.pdf .
 
 supportive-narrative.docx: $(SRC)
-	pandoc supportive-narrative.tex --bibliography=bibliography.bib -o supportive-narrative.docx
+	pandoc supportive-narrative_simple.tex --bibliography=bibliography.bib -o supportive-narrative.docx
 
 pdf: supportive-narrative.pdf
 
