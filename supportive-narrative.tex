@@ -19,6 +19,30 @@
 \usepackage{geometry}
 \usepackage[toc,page]{appendix}
 \usepackage{wrapfig}
+
+% Init framed boxes
+\usepackage[strict]{changepage}
+\usepackage{framed}
+\definecolor{formalshade}{rgb}{0.95,0.95,1}
+\definecolor{darkblue}{rgb}{0,0,0545}
+\newenvironment{formal}{
+  \def\FrameCommand{
+    \hspace{1pt}
+    {\color{darkblue}\vrule width 2pt}
+    % {\color{formalshade}\vrule width 4pt}
+    \colorbox{formalshade}
+  }
+  \MakeFramed{\advance\hsize-\width\FrameRestore}
+%   \noindent\hspace{-4.55pt}% disable indenting first paragraph
+%   \begin{adjustwidth}{}{7pt}
+  \vspace{2pt}\vspace{2pt}
+}
+{
+  \vspace{2pt}
+%   \end{adjustwidth}
+  \endMakeFramed
+}
+
 \graphicspath{ {./assets} }
 
 \usepackage[backend=biber,style=alphabetic]{biblatex}
