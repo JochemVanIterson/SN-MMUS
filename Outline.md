@@ -41,19 +41,19 @@ De concepten en de dienst die in dit SN worden beschreven zijn relevant binnen d
 
 ## 2. Critical review
 
-Binnen de critical review zal deskresearch worden gedaan naar bestaande distributie media, beginnende bij de Phonograph. Er zal per technologie een korte technische uitleg worden gegeven wat medium definieert, welke problemen het heeft proberen op te lossen en wat de disruptieve werking is geweest op zijn voorganger.
+Binnen de critical review zal deskresearch worden gedaan naar bestaande distributie media, beginnende bij de Phonograph. Er zal per technologie een korte technische uitleg worden gegeven wat medium definieert, welke problemen het heeft proberen op te lossen en wat de disruptieve werking is geweest op zijn voorganger en de rest van de (muziek) industrie.
 
 Daarnaast zal een korte beschrijving worden gegeven van enkele projecten die een soortgelijke werking/concept hebben als de NichePlayer.
 
 ## 3. Methode
 
-In dit hoofdstuk zal de methode worden beschreven van het onderzoek. Het hoofdonderzoek van dit SN is bedoeld om de bovengenoemde aannames te onderbouwen. Dit zal worden gedaan door middel van literatuur en deskresearch en houden van kwalitatieve interviews met artiesten, producers en luisteraars. De interviews zullen worden gevoerd met mensen die de NichePlayer zouden kunnen gebruiken, zowel artiest als gebruiker. Het doel is om te kijken of de NichePlayer een toegevoegde waarde heeft, en wat de plek is in het werkveld.
+In dit hoofdstuk zal de methode worden beschreven van het onderzoek. Het hoofdonderzoek van dit SN is bedoeld om de bovengenoemde aannames te onderbouwen. Dit zal worden gedaan door middel van literatuur en deskresearch en het houden van kwalitatieve interviews met artiesten, producers en luisteraars. De interviews zullen worden gevoerd met mensen die de NichePlayer zouden kunnen gebruiken, zowel artiest als gebruiker. Het doel is om te kijken of de NichePlayer een toegevoegde waarde heeft, en wat de plek is in de wereld van muziek distributie.
 
-Daarnaast zal ik zelf het process van muziek publishing gaan doorlopen om de aannames van het publiceren te testen.
+Daarnaast zal ik zelf het process van muziek publishing gaan doorlopen om mijn aannames bij het publiceren van muziek te testen.
 
 ## 4. Project/professional practice
 
-In dit hoofdstuk wordt verslag gegeven van het proces van het onderzoek. Het businessplan zal hier worden uitgewerkt. Daarnaast zal worden het ook worden gebruikt om het prototype te kunnen realiseren en testen bij een testpubliek. Dit testen zal worden geprobeerd te doen tijden tijdens het onderzoek, maar dat is afhankelijk van de beschikbare tijd.
+In dit hoofdstuk wordt verslag gegeven van het proces van het onderzoek. Het businessplan zal hier worden uitgewerkt en onderbouwd. Daarnaast zal het ook worden gebruikt om het prototype te kunnen realiseren en testen bij een testpubliek. Dit testen zal worden geprobeerd te doen tijden tijdens het onderzoek, maar dat is afhankelijk van de beschikbare tijd.
 
 ## 5. Conclusie
 
