@@ -17,7 +17,7 @@ Er zal onderzoek worden gedaan naar fysieke verkoop van content binnen de steeds
 De volgende aannames moeten worden gecontroleerd:
 
 - Door het vernieuwde luistergedrag binnen streamingdiensten heeft het album als distributievorm zijn individuele waarde verloren
-- De waarde zit op dit moment niet meer in de muziek, maar het platform die toegang biedt tot de (haast onbeperkte) content
+- De waarde zit op dit moment niet meer in de muziek, maar het platform die toegang biedt tot de voor de luisteraar haast onbeperkte hoeveelheid aan content
 - De waarde van muziek zit in de community die wordt gevormd rondom de muziek
 - Doordat beginnende artiesten op streamingdiensten direct concurreren met artiesten op professioneel niveau is het moeilijk om door te breken. Dit is slecht voor de diversiteit binnen de muziekindustrie
 - Hoewel het steeds makkelijker is om muziek te uploaden, zorgt dit er ook voor dat de muziek kwijt raakt in het grote geheel

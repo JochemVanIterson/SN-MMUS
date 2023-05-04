@@ -7,6 +7,7 @@
 - [https://paul.mycpanel.princeton.edu/lansky_beingdigital.pdf](https://paul.mycpanel.princeton.edu/lansky_beingdigital.pdf)
 - [https://en.wikipedia.org/wiki/The_Work_of_Art_in_the_Age_of_Mechanical_Reproduction](Wikipedia: The work of art in the age of mechanical reproduction)
 - How Music got free - Stephen Witt
+- <https://indepentia.nl/blog/hoeveel-betaalt-spotify-per-stream/>
 
 ## Critical review
 
