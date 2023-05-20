@@ -8,6 +8,10 @@
 - [https://en.wikipedia.org/wiki/The_Work_of_Art_in_the_Age_of_Mechanical_Reproduction](Wikipedia: The work of art in the age of mechanical reproduction)
 - How Music got free - Stephen Witt
 - <https://indepentia.nl/blog/hoeveel-betaalt-spotify-per-stream/>
+- <https://www.bbc.com/news/64919126>
+- <https://www.riaa.com/2022-year-end-music-industry-revenue-report-riaa/>
+- <https://www.riaa.com/wp-content/uploads/2023/03/2022-Year-End-Music-Industry-Revenue-Report.pdf>
+- 
 
 ## Critical review
 
