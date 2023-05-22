@@ -20,7 +20,7 @@ De volgende aannames moeten worden gecontroleerd:
 - De waarde zit op dit moment niet meer in de muziek, maar in het platform dat toegang biedt tot de voor de luisteraar haast onbeperkte hoeveelheid aan content
 - De waarde van muziek zit in de community die wordt gevormd rondom de muziek
 - Doordat beginnende artiesten op streamingdiensten direct concurreren met artiesten op professioneel niveau is het moeilijk om door te breken. Dit is slecht voor de diversiteit binnen de muziekindustrie
-- Hoewel het steeds makkelijker is om muziek te uploaden, zorgt dit er ook voor dat de muziek kwijt raakt in het grote geheel
+- Hoewel het steeds makkelijker is om muziek te uploaden, zorgt dit er ook voor dat de muziek kwijtraakt in het grote geheel
 
 ### De context van het onderwerp: wat is het grotere kader?
 
@@ -32,12 +32,12 @@ TODO: schrijf dit stuk
 
 - Artiesten helpen (en andere mensen)
 - Mensen verbinden en communities vormen
-- Ik ken veel mensen in de muziek industrie
+- Ik ken veel mensen in de muziekindustrie
 - Business opzetten
 
 ### Relevantie: waarom is het onderwerp van belang voor anderen?
 
-De concepten en de dienst die in dit SN worden beschreven zijn relevant binnen de distributieprocessen van de muziek industrie. Het biedt beginnende en kleine artiesten, producers en kunstenaars de kans een grotere inkomsten stroom te genereren uit de verkoop van hun muziek. Dit zou momenteel niet mogelijk zijn met bestaande diensten als Spotify en Bandcamp.
+De concepten en de dienst die in dit SN worden beschreven zijn relevant binnen de distributieprocessen van de muziekindustrie. Het biedt beginnende en kleine artiesten, producers en kunstenaars de kans een grotere inkomsten stroom te genereren uit de verkoop van hun muziek. Dit zou momenteel niet mogelijk zijn met bestaande diensten als Spotify en Bandcamp.
 
 ## 2. Critical review
 
