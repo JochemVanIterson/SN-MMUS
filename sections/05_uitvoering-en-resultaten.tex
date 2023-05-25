@@ -5,51 +5,77 @@
 
 In dit hoofdstuk ga ik de gemaakte aannames verder beschrijven en beargumenteren.
 
-\todo{Schrijven}
-
 \subsubsection*{Vernieuwd luistergedrag}
 
 \begin{quotebox}
 Door het vernieuwde luistergedrag binnen streamingdiensten heeft het album als distributievorm zijn individuele waarde verloren.
 \end{quotebox}
-\begin{itemize}
-  \item Er wordt niet meer naar albums geluisterd, maar meer naar individuele nummers in playlists
-  \item Singles
-\end{itemize}
+Streamingdiensten zoals Spotify hebben het luistergedrag van mensen merkbaar veranderd. Waar in de tijd van de LP en CD veel werd geluisterd naar albums is deze vorm van publiceren van muziek steeds minder vanzelfsprekend. Muziek wordt nu vaker gepubliceerd als losse nummers (singles), of in de vorm van een EP met 3 a 4 nummers.
+
+Dit heeft meerdere oorzaken: de eerste is dat het via streamingdiensten makkelijker is om losse releases te doen. Er is geen fysiek medium wat gedrukt en geleverd moet worden, maar een online dienst waarbij de content overal tegelijk beschikbaar is. Artiesten hoeven daarom niet meer te wachten tot ze genoeg nummers hebben voor een album, maar kunnen direct een nummer uitbrengen.
+
+Een andere reden is dat de manier waarom mensen muziek vinden is veranderd. Er wordt nu veel meer geluisterd via playlists. Binnen deze playlists is muziek van meerdere artiesten gebundeld met bijvoorbeeld eenzelfde genre. De luisteraar hoeft niet meer zelf op zoek naar nieuwe muziek, maar kan dit overlaten aan de curator van de playlist.
+
+Het is voor de artiest makkelijker om een los nummer te maken dan een heel album. Een album moet een geheel zijn, waarbij de nummers op elkaar aansluiten. Vaak heeft een album een overkoepelend thema, of verteld het een doorlopend verhaal (concept album).
+
+Een album heeft automatisch meer waarde dan een los nummer. Dit komt omdat er meer tijd en moeite in is gestoken. Het is een groter geheel, waarbij de nummers op elkaar aansluiten. Een album is een groter project dan een los nummer. Dit is ook te zien aan de prijs.
+
+Het lijkt er hiermee op dat dit een voordeel is voor beginnende artiesten. Ze kunnen sneller muziek uitbrengen en hoeven niet te wachten tot een album af is. Toch 
+
+\todo{Dit was een braindump, moet nog herschreven worden}
+\begin{todolist}
+  \item[\done] Beschrijven stelling
+  \item[\done] Oorzaken
+  \begin{todolist}
+    \item[\done] Makkelijker om losse releases te doen
+    \item[\done] Muziek wordt gevonden via playlists
+  \end{todolist}
+  \item Waarom heeft een album meer waarde?
+  \item Is het een probleem dat deze verschuiving plaatsvindt?
+\end{todolist}
 
 \subsubsection*{Waarde verschoven naar platform}
 \begin{quotebox}
 De waarde zit op dit moment niet meer in de muziek, maar in het platform dat toegang biedt tot de voor de luisteraar haast onbeperkte hoeveelheid aan content.
 \end{quotebox}
-\begin{itemize}
-  \item Luisteraars betalen niet voor de muziek, maar voor de toegang. Ze hebben vaak geen idee hoe het geld verdeeld wordt onder de artiesten.
-\end{itemize}
+\begin{todolist}
+  \item Luisteraars betalen niet voor de muziek, maar voor de toegang.
+  \item Ze hebben vaak geen idee hoe het geld verdeeld wordt onder de artiesten. Ze willen gewoon muziek luisteren.
+  \item Probleem van abonnement: geld gaat in een groot zwart gat
+  \item Muziek als identiteit veranderd naar achtergrond
+\end{todolist}
 
 \subsubsection*{Waarde zit in community}
 \begin{quotebox}
 De waarde van muziek zit in de community die wordt gevormd rondom de muziek.
 \end{quotebox}
-\begin{itemize}
-  \item Merchandise is erg belangrijk. Het is een manier om te laten zien dat je bij de community hoort.
+\begin{todolist}
+  \item Geen grote fan van één artiest zoals in de '80, maar fan van genre
+  \item Sterk genre afhankelijk, sommige genres zijn wel nog erg op fanbase gericht
+  \begin{todolist}
+    \item Metal
+    \item KPop
+  \end{todolist}
+  \item Merchandise is erg belangrijk bij de communities. Het is een manier om te laten zien dat je bij de community hoort.
   \item Artiesten zijn steeds meer bezig met het opbouwen van een community. Dit doen ze door middel van social media.
-\end{itemize}
+\end{todolist}
 
 \subsubsection*{Beginnende artiesten niet rendabel}
 \begin{quotebox}
 Doordat beginnende artiesten op streamingdiensten direct concurreren met artiesten op professioneel niveau is het moeilijk om door te breken. Dit is slecht voor de diversiteit binnen de muziekindustrie.
 \end{quotebox}
-\begin{itemize}
+\begin{todolist}
   \item Doordat beginnende artiesten niet rendabel zijn is het een grote drempel om volledig (financieel) te focussen op muziek. Hierdoor stoppen veel beginnende artiesten met muziek maken, of brengen ze minder muziek uit.
-\end{itemize}
+\end{todolist}
 
 \subsubsection*{Muziek raakt kwijt in geheel}
 \begin{quotebox}
 Hoewel het steeds makkelijker is om muziek te uploaden, zorgt dit er ook voor dat de muziek kwijtraakt in het grote geheel.
 \end{quotebox}
-\begin{itemize}
+\begin{todolist}
   \item Iedereen kan muziek maken en dit makkelijk uploaden naar streamingdiensten. Hierdoor is er een overvloed aan muziek. Het is moeilijk om op te vallen tussen al deze muziek.
   \item Muzikanten maken muziek waarmee ze makkelijker op playlists komen. Hierdoor wordt er minder geëxperimenteerd met muziek. Resultaat is dat de muziek meer van hetzelfde is.
-\end{itemize}
+\end{todolist}
 
 \subsection {Uitwerken businessplan}
 
@@ -78,7 +104,7 @@ Een van de extended services is een Media Transcoder. Hiermee kan een artiest ee
 
 De Media Transcoder is een complexe functie die veel CPU-kracht en bepaalde programma's  nodig heeft. Het is daarom niet mogelijk om deze functie op een standaard webserver te draaien. De Media Transcoder wordt daarom aangeboden als een Extended Service.
 
-Een andere extended service is Large File Hosting. Dit staat los van de Hosting Service die hiervoor genoemd is. De LFH is bedoeld voor het hosten van grote bestanden zoals verschillende kwaliteiten van mediabestanden. Door deze bestanden los te koppelen van de NichePlayer Artist, kan de website sneller laden en is het zelf hosten van de website goedkoper.
+Een andere extended service is Large File Hosting. Dit staat los van de Hosting Service die hiervoor genoemd is. Deze service is bedoeld voor het hosten van grote bestanden zoals verschillende kwaliteiten van mediabestanden. Door deze bestanden los te halen van de NichePlayer Artist kan de website sneller laden en is het zelf-hosten van de website goedkoper.
 
 \subsubsection*{NichePlayer Hub}
 Een van de krachtige features van bestaande streamingdiensten is het vinden van nieuwe muziek en content. Dit is tegenwoordig een van de voornaamste redenen dat artiesten hun muziek publiceren op streamingdiensten.
@@ -109,23 +135,23 @@ Er zijn nog veel meer functionaliteiten te bedenken die de NichePlayer kan biede
 
 \subsection {Uitwerken Software}
 \subsubsection*{U.F.O.-App}
-Ik ben al jaren een framework aan het ontwikkelen waarmee ik snel web-systemen kan opzetten. Dit framework heeft veel verschillende iteraties gezien (begonnen als puur zelf ontwikkeld, nu gebaseerd op verschillende andere libraries). Om de meest recente versie van het framework te testen ben ik de afgelopen 1.5 jaar bezig geweest met het ontwikkelen van een dranksysteem app voor mijn studentenscouting groep de U.F.O.-Stam uit Utrecht. Het concept achter de app heeft verder weinig te maken met de opleiding (verkopen van drankjes en andere producten tijdens de opkomsten). Wat wel relevant is voor de app, zijn onderdelen als user-authenticatie, media upload en transcodering, User Interface en User Experience design en algehele stabiliteit van het systeem.
+Ik ben al jaren een framework aan het ontwikkelen waarmee ik snel web-systemen kan opzetten. Dit framework heeft veel verschillende iteraties gezien (begonnen als puur zelf ontwikkeld, nu gebaseerd op verschillende andere libraries). Om de meest recente versie van het framework te testen ben ik de afgelopen 1.5 jaar bezig geweest met het ontwikkelen van een dranksysteem app voor mijn studentenscouting groep de U.F.O.-Stam uit Utrecht. Het concept achter de app heeft verder weinig te maken met de opleiding (verkopen van drankjes en andere producten tijdens de opkomsten). Wat wel relevant is voor de NichePlayer, zijn onderdelen zoals user-authenticatie, media upload en transcodering, User Interface en User Experience design en algehele stabiliteit van het systeem. Met andere woorden, de app is een goede test-case voor het ontwikkelen van de kern van het framework.
 
 Het grote voordeel van het ontwikkelen van deze app voor mijn scoutinggroep is dat ik het framework heb kunnen testen in een realistische live omgeving. Hoewel er in iets meer dan een jaar tijd meer dan 5000 transacties zijn gemaakt met een totale waarde van meer dan €4800,- was het toegestaan om fouten te maken. De app is niet bedoeld voor commerciële doeleinden en de gebruikers zijn bekend met het feit dat het een ontwikkel project is. Dit heeft mij de mogelijkheid gegeven om het framework te testen in een realistische omgeving, zonder dat er grote gevolgen waren als er iets fout ging.
 
 De app is inmiddels stabiel en heeft meer dan 100 gebruikers. Op piekmomenten wordt de app door meer dan 50 mensen tegelijk gebruikt, wat niet mogelijk was met oude versies van het framework tijdens mijn bachelor uitwerking van de NichePlayer.
 
 \subsubsection*{Plugins}
-Tijdens de laatste update aan de U.F.O.-App heb ik kern onderdelen van het framework verplaatst naar losse plugins en GIT repositories. Hierbij gaat het onder andere om API-communicatie, gebruiker authenticatie, media-upload en enkele UI elementen die ik vaak hergebruik. Ik realiseerde mij dat ik deze onderdelen vaak ontwikkel in verschillende projecten, maar iedere keer vanaf scratch begin. Door deze onderdelen te verplaatsen naar losse plugins kan ik ze makkelijk hergebruiken in andere projecten. Dit is ook het geval bij de NichePlayer. De NichePlayer maakt gebruik van verschillende plugins die ik heb ontwikkeld voor de U.F.O.-App. Het grote voordeel van deze plugin-structuur is dat de projecten profiteren van elkaars ontwikkeling. Als ik een update ontwikkel voor de U.F.O.-App, kan ik deze ook vrijwel direct gebruiken in de NichePlayer. Dit zorgt ervoor dat ik sneller kan ontwikkelen en meer kan focussen op de implementatie van de unieke functie van de verschillende systemen, in plaats van de kern van het systeem.
+Tijdens de laatste update aan de U.F.O.-App heb ik kern onderdelen van het framework verplaatst naar losse plugins en GIT repositories. Hierbij gaat het onder andere om de API-communicatie, gebruiker authenticatie, media-upload en enkele UI elementen die ik vaak hergebruik. Ik realiseerde mij dat ik deze onderdelen vaak ontwikkel in verschillende projecten, maar iedere keer vanaf scratch begin. Door deze onderdelen te verplaatsen naar losse plugins kan ik ze makkelijk hergebruiken in andere projecten. Dit is ook het geval bij de NichePlayer. De NichePlayer maakt gebruik van verschillende plugins die ik heb ontwikkeld voor de U.F.O.-App. Het grote voordeel van deze plugin-structuur is dat de projecten profiteren van elkaars ontwikkeling. Als ik een update ontwikkel voor de U.F.O.-App, kan ik deze ook vrijwel direct gebruiken in de NichePlayer. Dit zorgt ervoor dat ik sneller kan ontwikkelen en meer kan focussen op de implementatie van de unieke functies van de verschillende systemen, in plaats van de kern van het systeem.
 
 \subsubsection*{API-communicatie}
-De NichePlayer maakt gebruik van een API om te communiceren tussen de frontend en de backend. Deze API was in vorige versies van mijn framework gebaseerd op GraphQL. Deze api-vorm gebruikt een enkele endpoint (url) waarnaar een zogenaamde query (een vraag of opdracht) wordt gestuurd. Deze query wordt vervolgens verwerkt door de server en het resultaat wordt teruggestuurd naar de client. Het grote voordeel van GraphQL is dat de client zelf kan bepalen welke data hij nodig heeft. Hierdoor kan de server efficiënter werken en hoeft er minder data over verschillende requests verstuurd te worden. Ingewikkelde en uitgebreide zoekopdrachten zoals "geef mij een album met alle nummers en artiesten, en alle gebruikers die op dit moment naar dit album aan het luisteren zijn" kan in een enkele query verstuurd worden. Deze manier van flexibel en dynamisch data opvragen is moeilijk te bereiken in andere API vormen.
+De NichePlayer maakt gebruik van een API om te communiceren tussen de frontend en de backend. Deze API was in vorige versies van mijn framework gebaseerd op GraphQL. Deze api-vorm gebruikt een enkele endpoint (url) waarnaar een zogenaamde query (een vraag of opdracht) wordt gestuurd. Deze query wordt vervolgens verwerkt door de server en het resultaat wordt teruggestuurd naar de client. Het grote voordeel van GraphQL is dat de client zelf kan bepalen welke data hij nodig heeft. Hierdoor kan de server efficiënter werken en hoeft er minder data over verschillende requests verstuurd te worden. Ingewikkelde en uitgebreide zoekopdrachten zoals "geef mij een album met alle nummers en artiesten, en alle gebruikers die op dit moment naar dit album aan het luisteren zijn" kan in een enkele query verstuurd worden.
 
-GraphQL bleek echter verschillende nadelen te hebben in binnen deze uitwerking van het systeem. Zo was het bijvoorbeeld niet mogelijk om queries te cachen en hergebruiken voor verschillende users. Het grootste nadeel was echter een gebrek aan configuratie aan de frontend kant. Ik gebruikte een library die de queries voor mij genereerde, maar deze library bleek niet intelligent of aanpasbaar genoeg. Hierdoor was het niet mogelijk om de queries te optimaliseren voor de verschillende functies van de app. Een voorbeeld was een circulaire referentie die moeilijk op te lossen was. Bij deze circulaire referentie vroeg ik bijvoorbeeld een om een album, waarbij ik automatisch alle tracks van het album mee kreeg. Een track had echter ook een lijst van gebruikers die recent naar dat nummer hadden geluisterd. Deze gebruikers hadden vervolgens weer een lijst van albums die ze hadden gekocht, waarbij ik weer alle tracks van het album kreeg. Dit zorgde ervoor dat de app onnodig veel data moest verwerken en versturen. De lus was enkel te doorbreken door het automatisch ophalen van relaties uit te zetten, of handmatig de queries te schrijven in plaats van te laten genereren door de library. Hiermee ging de kracht van het gebruik van de GraphQL library verloren, waardoor het toch makkelijker was om over te stappen naar eenvoudigere API vormen.
+GraphQL bleek echter verschillende nadelen te hebben binnen deze uitwerking van het systeem. Zo was het bijvoorbeeld niet mogelijk om queries te cachen en hergebruiken voor verschillende users. Het grootste nadeel was echter een gebrek aan configuratie aan de frontend kant. Ik gebruikte een library die de queries voor mij genereerde, maar deze library bleek niet intelligent of aanpasbaar genoeg. Hierdoor was het niet mogelijk om de queries te optimaliseren voor de verschillende functies van de app. Een voorbeeld was een circulaire referentie die moeilijk op te lossen was. Bij deze circulaire referentie vroeg ik bijvoorbeeld een om een album, waarbij ik automatisch alle tracks van het album mee kreeg. Een track had echter ook een lijst van gebruikers die recent naar dat nummer hadden geluisterd. Deze gebruikers hadden vervolgens weer een lijst van albums die ze hadden gekocht, waarbij ik weer alle tracks van het album kreeg. Dit zorgde ervoor dat de app onnodig veel data moest verwerken en versturen. De cirkel was enkel te doorbreken door het automatisch ophalen van relaties uit te zetten, of handmatig de queries te schrijven in plaats van te laten genereren door de library. Hiermee ging de kracht van het gebruik van de GraphQL library verloren, waardoor het toch makkelijker was om over te stappen naar eenvoudigere API vormen.
 
-De nieuwe API is gebaseerd op REST. Dit is een meer traditionele API-vorm waarbij er verschillende endpoints zijn die verschillende data terugsturen. Het grote voordeel van deze API-vorm is dat het makkelijker is om de data te optimaliseren voor de verschillende functies van de app. Zo kan ik bijvoorbeeld een endpoint maken die enkel de data terugstuurt die nodig is voor het afspelen van een album, en een andere endpoint die voor de administrator van het systeem juist alle data doorstuurt. Dit zorgt ervoor dat de app sneller werkt en minder data hoeft te versturen. De REST-API is meer configuratie werk, maar zorgt voor meer overzichtelijke code en een snellere app.
+De nieuwe API is gebaseerd op REST. Dit is een meer traditionele API-vorm waarbij er verschillende endpoints zijn op de server die verschillende data terugsturen. Het grote voordeel van deze API-vorm is dat het makkelijker is om de data te optimaliseren voor de verschillende functies van de app. Zo kan ik bijvoorbeeld een endpoint maken die enkel de data terugstuurt die nodig is voor het afspelen van een album, en een andere endpoint die voor de administrator van het systeem juist alle data doorstuurt. Dit zorgt ervoor dat de app sneller werkt en minder data hoeft te versturen. De REST-API is meer configuratie werk, maar zorgt voor overzichtelijkere code en een snellere app.
 
-Een voordeel van REST is dat ik de API taal kan hergebruik tussen verschillende programmeertalen. De NichePlayer-Artist moet vanwege zijn self-hostable karakter geschreven worden in PHP, terwijl de NichePlayer-Hub geschreven wordt in RubyOnRails. Beide programmeertalen hebben een eigen manier van communiceren met een API, maar door de API te schrijven in een taalonafhankelijke syntax kan ik de API hergebruiken in beide projecten.
+Een voordeel van REST is dat ik de API kan hergebruik tussen verschillende programmeertalen. De NichePlayer-Artist moet vanwege zijn self-hostable karakter geschreven worden in PHP, terwijl de NichePlayer-Hub geschreven wordt in RubyOnRails. Beide programmeertalen hebben een eigen manier van communiceren met een API, maar door de API te schrijven in een taalonafhankelijke syntax kan ik de API hergebruiken in beide projecten.
 
 \subsubsection*{NichePlayer-Artist}
 Na lang te hebben gewerkt aan de U.F.O.-App was het tijd om de vertaalslag te maken naar de NichePlayer-Artist. Omdat ik in de laatste updates aan de U.F.O.-App had gewerkt met plugins kon ik in erg korte tijd de code strippen en herschrijven. Ik ben uiteindelijk ongeveer 2 dagen bezig geweest met het strippen van de code van het dranksysteem, en vervolgens een dag of 3 met het implementeren van de Minimal Viable Product eisen van de NichePlayer. Dit laatste was voornamelijk mogelijk door het hergebruiken van code van mijn bachelor versie van de NichePlayer en kennis die ik de afgelopen jaren heb opgedaan als developer bij TapTapes.
