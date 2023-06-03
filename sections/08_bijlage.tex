@@ -1,0 +1,42 @@
+% Hier komen bestanden en afbeeldingen die te groot zijn voor in het SN zelf.
+\pagestyle{fancy}
+\newgeometry{left=3cm,bottom=0.1cm}
+
+\includepdf[
+  pages=-,
+  frame,
+  pagecommand={\pagestyle{fancy}},
+  addtotoc={1, section, 2, {NichePlayer Businessplan}, bijlage:businessplan},
+  % offset=0 50,
+  scale=0.8
+]{
+  ./assets/bijlage/A NichePlayer Businessplan.pdf
+}
+
+\includepdf[
+  pages=-,
+  frame,
+  % landscape=true,
+  nup=1x2,
+  pagecommand={\pagestyle{fancy}},
+  addtotoc={1, section, 2, Pitch NichePlayer, bijlage:pitch},
+  scale=0.95,
+  delta=0 20
+]{
+  ./assets/bijlage/B Pitch NichePlayer.pdf
+}
+
+\includepdf[
+  pages=-,
+  frame,
+  % landscape=true,
+  nup=1x2,
+  pagecommand={\pagestyle{fancy}},
+  addtotoc={1, section, 2, Screenshots Demo, bijlage:screenshots_demo},
+  scale=0.95,
+  delta=0 20
+]{
+  ./assets/bijlage/C Screenshots Demo.pdf
+}
+
+% \section{Screenshots demo}

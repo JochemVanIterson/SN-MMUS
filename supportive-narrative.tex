@@ -53,6 +53,8 @@
 \hspace{-2.5pt}}
 \newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
 
+\usepackage{url}
+\usepackage{hyperref}
 \usepackage[backend=biber,style=alphabetic]{biblatex}
 \addbibresource{bibliography.bib}
 %\bibliographystyle{apalike}
@@ -76,6 +78,7 @@
 
 \newpage % Abstract
 % \pagenumbering{arabic}
+\addcontentsline{toc}{section}{Abstract}
 \input{sections/01_abstract.tex}
 \pagenumbering{arabic}
 
@@ -99,11 +102,10 @@
 
 \newpage % Referenties
 \addcontentsline{toc}{section}{Referenties}
-
-\printbibliography
+\input{sections/07_reference.tex}
 
 \newpage % Bijlage
 \appendix
-\input{sections/07_bijlage.tex}
+\input{sections/08_bijlage.tex}
 
 \end{document}
