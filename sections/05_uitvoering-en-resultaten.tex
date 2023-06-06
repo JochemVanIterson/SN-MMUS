@@ -10,7 +10,7 @@ In dit hoofdstuk ga ik de gemaakte aannames verder beschrijven en beargumenteren
 \begin{quotebox}
 Door het vernieuwde luistergedrag binnen streamingdiensten heeft het album als distributievorm zijn individuele waarde verloren.
 \end{quotebox}
-Streamingdiensten zoals Spotify hebben het luistergedrag van mensen merkbaar veranderd. Waar in de tijd van de LP en CD veel werd geluisterd naar albums is deze vorm van publiceren van muziek steeds minder vanzelfsprekend. Hoewel albums nog steeds worden gebruikt wordt de muziek nu vaak tussendoor gepubliceerd als losse nummers (singles), of in de vorm van een EP met 3 a 4 nummers.
+Streamingdiensten zoals Spotify hebben het luistergedrag van mensen merkbaar veranderd. Waar in de tijd van de LP en CD veel werd geluisterd naar albums is deze vorm van publiceren van muziek steeds minder vanzelfsprekend. Hoewel albums nog steeds worden gebruikt wordt de muziek nu vaak ook tussendoor gepubliceerd als losse nummers (singles), of in de vorm van een EP met 3 a 4 nummers.
 
 Dit heeft meerdere oorzaken: de eerste is dat het via streamingdiensten makkelijker is om losse releases te doen. Er is geen fysiek medium wat gedrukt en geleverd moet worden, maar een online dienst waarbij de content overal tegelijk beschikbaar is. Artiesten hoeven daarom niet meer te wachten tot ze genoeg nummers hebben voor een album, maar kunnen direct een nummer uitbrengen.
 
@@ -90,14 +90,31 @@ Daarnaast kan binnen een NichePlayer Artist ook een community ontstaan rond de m
 \subsubsection*{NichePlayer Hosting}
 Uit gesprekken en een enquête in mijn 3e jaars paper van de Bachelor is gebleken dat veel artiesten niet de kennis hebben om een website te hosten. Daarnaast geven artiesten vaak aan zich te willen focussen op de muziek, en niet op randzaken zoals het hosten van een website.
 
-De NichePlayer Hosting Service is voornamelijk bedoeld voor het gemak van de artiest. In plaats van dat de artiest zelf een website moet installeren wordt dit allemaal door de Hosting Service gedaan. Inrichten van de website en het uploaden van de content wordt wel door de artiest gedaan. De websites gehost door de Hosting Service zijn hetzelfde als het de NichePlayer Artist versie, maar dan gehost op een server van NichePlayer.
+De NichePlayer Hosting Service is voornamelijk bedoeld voor het gemak van de artiest. In plaats van dat de artiest zelf een website moet installeren wordt dit allemaal door de Hosting Service gedaan. Inrichten van de website en het uploaden van de content wordt wel door de artiest gedaan. De websites gehost door de Hosting Service zijn hetzelfde als de NichePlayer Artist versie, maar dan gehost op een server van NichePlayer. Dit komt voornamelijk omdat het redelijk makkelijk is om de zelf gehoste versie om te zetten naar een virtual machine die gehost kan worden op een server.
 
 Het hosten van een website kost geld, zowel voor opslag als bandbreedte van de verbinding. De artiest betaald een vast bedrag per maand voor de hosting van de website. Dit bedrag is afhankelijk van de hoeveelheid opslag en bandbreedte die de artiest nodig heeft. Binnen NichePlayer worden servers aangeschaft en ingericht voor het hosten van de sites. De kosten voor de servers worden gedekt door de maandelijkse betalingen van de artiesten.
+
+\subsubsection*{NichePlayer NFC}
+\begin{wrapfigure}{r}{0.25\textwidth}
+  \centering
+  \includegraphics[width=0.25\textwidth]{assets/uitvoering/NFC_chips.jpg}
+  \caption{NFC chip}
+  \label{fig:uitvoering:NFC_chip}
+\end{wrapfigure}
+De NFC-feature is een van de killer-features van de NichePlayer. Het is de reden dat een artiest een NichePlayer wil gebruiken. NFC staat voor Near Field Communication, en wordt gebruikt om draadloos informatie uit te wisselen tussen twee apparaten of een apparaat en een kaart. Bekende toepassingen binnen Nederland zijn de OV-chipkaart en contactloos betalen. Binnen de NichePlayer wordt NFC gebruikt om toegang tot de muziek te krijgen. Iedere NFC-chip is uniek, en kan worden gekoppeld aan een album van een NichePlayer Artist. Door een NFC-chip te scannen met een telefoon wordt de toegang gekoppeld met het account van de gebruiker. De gebruiker kan vervolgens de muziek luisteren op alle apparaten die zijn gekoppeld aan het account.
+
+Wanneer een andere telefoon de NFC-chip scant, wordt de chip ook gekoppeld aan het account van die telefoon. Dit kan worden gebruikt om de muziek te delen met vrienden. Er zit echter wel een limiet op het aantal accounts dat gekoppeld kan worden aan een chip. Dit is om te voorkomen dat een gebruiker een chip kan kopen en deze vervolgens kan delen met iedereen. De limiet is in te stellen door de artiest, maar zal standaard ingesteld zijn op 3 gebruikers. Wanneer de limiet is bereikt wordt het account die als eerste gescand heeft ontkoppeld.
+
+Een groot verschil met bestaande fysieke distributie media is dat de chip slechts een doorgeefluik is. De muziek wordt niet opgeslagen op de chip, maar op de servers van de artiest. Dit betekent dat de muziek altijd up-to-date is, en dat de artiest de muziek kan aanpassen zonder dat de chip opnieuw gemaakt hoeft te worden. Content is daarnaast ook niet gelimiteerd tot muziek, ook andere media zoals video's en foto's zijn mogelijk. De NichePlayer NFC chips zijn daarom een goede vervanger voor de huidige distributie media.
+
+NFC-chips zijn fysieke producten, wat betekend dat er automatisch een beperkte voorraad is. Dit zorgt ervoor dat de chips een hogere waarde hebben dan digitale producten. Er kunnen geen perfecte kopieën van de chips gemaakt worden.
+
+De NFC-chips maken het mogelijk om muziek op een fysieke wijze te verkopen, maar tijdens het afspelen de voordelen van streaming te hebben. De chips zijn makkelijk te verwerken in bestaande producten als Vinyl platen, CD's en posters, maar bieden meer creativiteit. Daarnaast zijn de chips relatief goedkoop te produceren.
 
 \subsubsection*{NichePlayer Extended Services}
 De Extended Services zijn extra functionaliteiten die het gebruik van de NichePlayer Artist verder uitbreiden. De Extended Services zijn optioneel en kunnen per functie worden aangeschaft door de artiest.
 
-Veel van deze functies zijn gebaseerd op technische restricties van de manier waarop de NichePlayer Artist is opgezet. Het gaat hierbij om features die niet via een standaard webserver zoals apache server kunnen lopen, of bepaalde software licenties nodig hebben. Hoewel de extended services in theorie zelf te hosten is (via een docker image), vergt dit veel technische kennis. Het is dan ook een goede reden om als ontwikkelaar de extended services apart aan te bieden.
+Veel van deze functies zijn gebaseerd op technische restricties van de manier waarop de NichePlayer Artist is opgezet. Het gaat hierbij om features die niet via een standaard webserver zoals apache server kunnen lopen, of bepaalde software licenties nodig hebben. Hoewel de extended services in theorie zelf te hosten zij (via een docker image), vergt dit veel technische kennis. Het is dan ook een goede reden om als ontwikkelaar de extended services apart aan te bieden.
 
 Een van de extended services is een Media Transcoder. Hiermee kan een artiest een enkel hoog kwaliteit bestand uploaden, die vervolgens wordt omgezet naar verschillende kleinere kwaliteiten. Dit is een belangrijke functie voor het gebruiksgemak van luisteraars, omdat zij zo zelf kunnen kiezen welke kwaliteit ze willen luisteren. Grote bestanden kost veel opslag en bandbreedte, wat op mobiele verbindingen veel geld kost. Als een luisteraar echter thuis is, kan die wel de hoogste kwaliteit luisteren.
 
@@ -114,22 +131,12 @@ Gebruikers van de Hub vormen vervolgens ook zelf een grote community. \todo{Schr
 
 Om zichtbaar te zijn op de Hub moet een artiest een abonnement hebben. Dit abonnement is een vast bedrag per maand. De kosten voor de servers worden gedekt door de maandelijkse betalingen van de artiesten. Daarnaast kan een artiest extra betalen om te hoger in het zoekalgoritme van de Hub te komen. Dit is een extra inkomstenbron voor de NichePlayer.
 
-\subsubsection*{NichePlayer NFC}
-\begin{wrapfigure}{r}{0.25\textwidth}
-  \centering
-  \includegraphics[width=0.25\textwidth]{assets/uitvoering/NFC_chips.jpg}
-  \caption{NFC chip}
-  \label{fig:uitvoering:NFC_chip}
-\end{wrapfigure}
-De NFC-feature is een van de killer-features van de NichePlayer. Het is de reden dat een artiest een NichePlayer wil gebruiken. NFC staat voor Near Field Communication, en wordt gebruikt om draadloos informatie uit te wisselen tussen twee apparaten of een apparaat en een kaart. Bekende toepassingen binnen Nederland zijn de OV-chipkaart en contactloos betalen. Binnen de NichePlayer wordt NFC gebruikt om toegang tot de muziek te krijgen. Iedere NFC-chip is uniek, en kan worden gekoppeld aan een album van een NichePlayer Artist. Door een NFC-chip te scannen met een telefoon wordt de toegang gekoppeld met het account van de gebruiker. De gebruiker kan vervolgens de muziek luisteren op alle apparaten die zijn gekoppeld aan het account.
+\subsubsection*{NichePlayer Native Apps}
+De NichePlayer is gemaakt als webplatform. Hierdoor is het makkelijk te draaien op verschillende soorten computers, en hoeft er niet voor ieder platform een aparte app te worden gemaakt. Ontwikkeling gaat hierbij snel. Er zijn echter ook nadelen aan deze aanpak. De NichePlayer (Hub) is niet te vinden in de verschillende appstores waardoor het minder makkelijk te vinden is voor luisteraars. Daarnaast kan een webapp minder goed verbinden met het besturingssysteem van het apparaat, waardoor functies als playback controls van het systeem, offline downloaden van muziek en het afspelen in de auto niet mogelijk zijn.
 
-Wanneer een andere telefoon de NFC-chip scant, wordt ook deze gekoppeld aan het account. Dit kan worden gebruikt om de muziek te delen met vrienden. Er zit echter wel een limiet op het aantal accounts dat gekoppeld kan worden aan een chip. Dit is om te voorkomen dat een gebruiker een chip kan kopen en deze vervolgens kan delen met iedereen. De limiet is in te stellen door de artiest, maar zal standaard ingesteld zijn op 3 gebruikers. Wanneer de limiet is bereikt wordt de gebruiker die als eerste gescand heeft ontkoppeld.
+Daarnaast zou de artiest zelf een account moeten hebben om de app van zijn NichePlayerArtist te kunnen publiceren, wat extra werk is voor de artiest en bovendien veel geld kan kosten. Het onderhouden van een app is moeilijker omdat er verschillende versies moeten worden onderhouden voor de verschillende platformen.
 
-Een groot verschil met bestaande distributie media is dat de chip slechts een doorgeefluik is. De muziek wordt niet opgeslagen op de chip, maar op de servers van de artiest. Dit betekent dat de muziek altijd up-to-date is, en dat de artiest de muziek kan aanpassen zonder dat de chip opnieuw gemaakt hoeft te worden. Content is daarnaast ook niet gelimiteerd tot muziek, ook andere media zoals video's en foto's zijn mogelijk. De NichePlayer NFC chips zijn daarom een goede vervanger voor de huidige distributie media.
-
-NFC-chips zijn fysieke producten, wat betekend dat er automatisch een beperkte voorraad is. Dit zorgt ervoor dat de chips een hogere waarde hebben dan digitale producten. Er kunnen geen perfecte kopieën van de chips gemaakt worden.
-
-De NFC-chips maken het mogelijk om muziek op een fysieke wijze te verkopen, maar tijdens het afspelen de voordelen van streaming te hebben. De chips zijn makkelijk te verwerken in bestaande producten als Vinyl platen, CD's en posters, maar bieden meer creativiteit. Daarnaast zijn de chips relatief goedkoop te produceren.
+Een oplossing is het aanbieden van een NichePlayerApp. Deze app is voornamelijk gericht op de Hub, maar kan ook de NichePlayer Artist websites koppelen en afspelen. Omdat het ontwikkelen van de App veel tijd kost zal deze in eerste instantie alleen de basis functies hebben (i.e. afspelen van muziek). De NichePlayerApp is een native app die beschikbaar is in de verschillende appstores. De app is gratis te downloaden en te gebruiken.
 
 \subsubsection*{NichePlayer Custom development}
 Er zijn nog veel meer functionaliteiten te bedenken die de NichePlayer kan bieden. De NichePlayer is een framework, en kan dus worden uitgebreid met nieuwe functionaliteiten. Deze functionaliteiten kunnen worden aangevraagd door middel van offerte bij de ontwikkelaar van de NichePlayer. Hiermee blijft de NichePlayer groeien en kan het worden aangepast aan de wensen van de artiesten.
@@ -157,9 +164,9 @@ Een voordeel van REST is dat ik de API kan hergebruik tussen verschillende progr
 \subsubsection*{NichePlayer-Artist}
 Na lang hebben gewerkt aan de U.F.O.-App was het tijd om de vertaalslag te maken naar de NichePlayer-Artist. Omdat ik in de laatste updates aan de U.F.O.-App had gewerkt met plugins kon ik in erg korte tijd de code strippen en herschrijven. Ik ben uiteindelijk ongeveer 2 dagen bezig geweest met het strippen van de code van het dranksysteem, en vervolgens een dag of 3 met het implementeren van de Minimal Viable Product eisen van de NichePlayer. Dit laatste was voornamelijk mogelijk door het hergebruiken van code van mijn bachelor versie van de NichePlayer en kennis die ik de afgelopen jaren heb opgedaan als developer bij TapTapes.
 
-De Artist is een simpele muziek player die alleen toegankelijk is met een user account. Binnen de player zitten standaard functies zoals het afspelen en pauzeren van muziek, binnen een track seeken, een repeat functie en volume. Daarnaast is er een lijst met alle tracks die worden afgespeeld. De player is responsive en werkt op zowel desktop als mobiel. De achtergrond van de player wordt gegenereerd uit de album cover. De nummers die worden afgespeeld worden opgeslagen in een luistergeschiedenis. Deze geschiedenis wordt zowel gebruikt als statistiek en betaling voor de artiest, als om de luisteraar te laten zien wat hij heeft geluisterd. Ook kunnen andere luisteraars zien dat een gebruiker naar een bepaald album heeft geluisterd. Dit is een manier om de community te versterken.
+De Artist is een simpele muziek player die alleen toegankelijk is met een user account. Binnen de player zitten standaard functies zoals het afspelen en pauzeren van muziek, binnen een track seeken, een repeat functie en volume. Daarnaast is er een lijst met alle tracks die worden afgespeeld. De player is responsive en werkt op zowel desktop als mobiel. De achtergrond van de player wordt gegenereerd uit de album cover. De nummers die worden afgespeeld worden opgeslagen in een luistergeschiedenis. Deze geschiedenis wordt naast statistiek en betaling voor de artiest ook gebruikt om de luisteraar te laten zien wat hij heeft geluisterd. Ook kunnen andere luisteraars zien dat een gebruiker naar een bepaald album heeft geluisterd. Dit is een manier om de community te versterken.
 
-De Artist heeft een administratie paneel die wordt gebruikt om het systeem te beheren. Binnen dit paneel kan de artiest gebruikers beheren, verschillende soorten media beheren en albums toevoegen. Tijdens het uploaden van media analyseert de backend de bestanden en staat metadata op voor later gebruik. In het geval van audio bestanden wordt de ID3 tag met track info opgeslagen.
+De Artist heeft een administratie paneel die wordt gebruikt om het systeem te beheren. Binnen dit paneel kan de artiest gebruikers beheren, verschillende soorten media beheren en albums toevoegen. Tijdens het uploaden van media analyseert de backend de bestanden en slaat metadata op voor later gebruik. In het geval van audio bestanden wordt de ID3 tag met track info opgeslagen.
 
 \subsubsection*{NichePlayer-Hub}
 De NichePlayer-Hub is de centrale plek waar NichePlayer-Artists worden gebundeld tot één systeem. Dit project is opgezet in RubyOnRails. Net als de Artist is de Hub gebaseerd op een bestaand project, die ik heb omgezet door middel van plugins om het ontwikkelen te versnellen.
@@ -173,7 +180,7 @@ Na de koppeling tussen Artist en Hub was het mogelijk om een NFC dienst op te ze
 
 Iedere NFC chip heeft een unieke code (UID). Deze code kan worden gebruikt om de chip te identificeren. Wanneer de gebruiker de chip scant wordt een URL gegenereerd die bestaat uit een URL op de Hub, de UID van de chip en een counter hoe vaak de chip gescand is (https://hub.nicheplayer.nl/api/nfc/?uid=00000000000000x000000). De Hub herkent vervolgens de UID en zet deze om naar een link van een album op de site van de Artist. De gebruiker wordt vervolgens met een temporary redirect (HTTP307) doorgestuurd naar de site van de Artist.
 
-Hoewel het verplaatsen van de NFC logica naar de Hub al zorgt voor een betere beveiliging, is het nog steeds mogelijk om het URL te kopiëren en te delen met anderen. Een oplossing hiervoor is het meenemen va de scan counter waardoor het URL maar eenmalig gebruikt kan worden. Er zijn ook NFC-chips die de UID en scan count versleutelen met een wachtwoord waardoor het niet mogelijk is het URL handmatig aan te passen. Deze chips zijn echter duurder en daarmee niet bruikbaar voor dit prototype.
+Hoewel het verplaatsen van de NFC logica naar de Hub al zorgt voor een betere beveiliging, is het nog steeds mogelijk om het URL te kopiëren en te delen met anderen. Een oplossing hiervoor is het meenemen van de scan counter waardoor het URL maar eenmalig gebruikt kan worden. Er zijn ook NFC-chips die de UID en scan count versleutelen met een wachtwoord waardoor het niet mogelijk is het URL handmatig aan te passen. Deze chips zijn echter duurder en daarmee niet bruikbaar voor dit prototype.
 
 Een onderdeel wat nog niet is ontwikkeld is het koppelen aan accounts aan de NFC-chips. Met deze functie kunnen luisteraars de chip eenmalig scannen en vervolgens overal luisteren. Wanneer een andere luisteraar de chip scant wordt deze ook gekoppeld het dat account. Dit kan doorgaan tot een bepaald door de artiest in te stellen limiet, waarna de eerste luisteraar wordt ontkoppeld. Een alternatief is het aanbieden van een eenmalige luistermodus waarbij de chip ontkoppeld wordt zodra de sessie is verlopen. Deze twee opties zijn natuurlijk ook te combineren.
 
