@@ -2,7 +2,7 @@
 
 SRC= supportive-narrative.tex supportive-narrative_simple.tex sections/*.tex bibliography.bib
 
-all: pdf docx
+all: pdf docx count
 
 supportive-narrative.pdf: $(SRC)
 	@mkdir -p out
@@ -21,3 +21,7 @@ docx: supportive-narrative.docx
 
 clean:
 	rm -rf out supportive-narrative.pdf supportive-narrative.docx
+
+count:
+	@echo "Word count: "
+	@texcount -merge -sum supportive-narrative.tex
