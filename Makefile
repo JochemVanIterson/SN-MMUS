@@ -1,6 +1,6 @@
 # Makefile for thesis
 
-SRC= supportive-narrative.tex supportive-narrative_simple.tex sections/*.tex bibliography.bib
+SRC= supportive-narrative.tex supportive-narrative_simple.tex sections/*.tex bibliography.bib assets/*
 
 all: pdf docx count
 
